@@ -23,23 +23,6 @@ proxies:
     path: /trojango
     headers:
         Host: herzaid-vip.rockstartun.xyz
-#========= TROJAN VLESS FREE 30-07 =========
-- name: 🇮🇩 🟠 𝙑𝙇_𝙍𝘼𝙅𝘼𝙎𝘼 🟠
-  server: hynesconstruction.com
-  server: cdn.onlymega.com
-  port: 443
-  type: vless
-  uuid: d2744bf4-2ed3-4205-9314-de5af91122dd
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: id4.v2vless.xyz
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: id4.v2vless.xyz
-  udp: true
 #========= TROJAN GO PREM =========
 - name: 🇸🇬 🟠 𝙂𝙊_𝘿𝙊𝘾𝙀𝘼𝙉 🟠
   server: cdn.onlymega.com
