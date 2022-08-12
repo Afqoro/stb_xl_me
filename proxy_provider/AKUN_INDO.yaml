@@ -35,7 +35,7 @@ proxies:
   server: cdn.onlymega.com
   server: hynesconstruction.com
   port: 443
-  uuid: 279226c2-c2ed-4b4e-aac7-f976f4061d66
+  uuid: a936aaaf-f265-4b68-8ca5-9614a9326917
   alterId: 0
   cipher: auto
   udp: true
@@ -53,7 +53,7 @@ proxies:
   server: cdn.onlymega.com
   port: 443
   type: trojan
-  password: 94b2c602-7331-4c67-8fd2-6276d845d64f
+  password: cfdb7aa0-1c52-4422-bfcd-f4ce22813e56
   skip-cert-verify: true
   sni: id-atha3.rockstartun.xyz
   network: ws
