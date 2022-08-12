@@ -1,0 +1,36 @@
+proxies:
+#========= TROJAN GRPC PREM =========
+# PREMIUM SGDO
+- name: 🇸🇬 🔵 𝘿𝙊-𝙂𝘼𝙈𝙀 🔵
+  type: trojan
+  server: 159.89.201.118
+  port: 443
+  password: c8d35351-2bb8-4a0d-8c4e-568bcb3bf76f
+  udp: true
+  sni: teams.microsoft.com
+  skip-cert-verify: true
+  network: grpc
+  grpc-opts:
+    grpc-service-name: tdngrpc443
+#========= TROJAN GRPC PREM =========
+- name: 🇸🇬 🔵 𝙇𝙄𝙉𝙊-𝙂𝘼𝙈𝙀 🔵
+  type: trojan
+  server: sgtr-prem.premiumvip.tech
+  port: 443
+  password: bd16c7c7-eed4-40af-b41d-f120fd6a9d6c
+  udp: true
+  sni: cdn.onlymega.com
+  skip-cert-verify: true
+  network: grpc
+  grpc-opts:
+    grpc-service-name: tdngrpc443
+#========= TROJAN XTLS PREM =========
+- name: 🇸🇬 🔵 𝙓𝙏-𝘿𝙊𝘾𝙀𝘼𝙉 🔵
+  server: sg-do1.gettunel.me
+  port: 443
+  type: trojan
+  password: c8d35351-2bb8-4a0d-8c4e-568bcb3bf76f
+  flow: xtls-rprx-direct
+  skip-cert-verify: true
+  sni: teams.microsoft.com
+  udp: true

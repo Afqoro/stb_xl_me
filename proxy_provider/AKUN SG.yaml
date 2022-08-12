@@ -1,0 +1,59 @@
+proxies:
+#========= TROJAN GRPC PREM =========
+- name: 🇸🇬 🟢 𝙂𝙍_𝘿𝙊𝘾𝙀𝘼𝙉 🟢
+  type: trojan
+  server: cdn.onlymega.com
+  server: hynesconstruction.com
+  port: 443
+  password: c8d35351-2bb8-4a0d-8c4e-568bcb3bf76f
+  udp: true
+  sni: sg-do1.gettunel.me
+  skip-cert-verify: true
+  network: grpc
+  grpc-opts:
+    grpc-service-name: tdngrpc443
+#========= TROJAN GFW OPENTUNNEL 01-08 =========
+#30day
+- name: 🇸🇬 🟢 𝙂𝙁_𝘾𝙃𝙊𝙊𝙋𝘼 🟢
+  type: trojan
+  server: sgt-1.opensvr.net
+  port: 443
+  password: opentunnel.net-hasda
+  udp: true
+  sni: teams.microsoft.com
+  skip-cert-verify: true
+#========= TROJAN GFW PREM =========
+- name: 🇮🇩 🟢 𝙂𝙁_𝙃𝙀𝙍𝙕𝘼𝙄𝘿 🟢
+  type: trojan
+  server: herzaid-vip.rockstartun.xyz
+  port: 443
+  password: QKxORMaP
+  udp: true
+  sni: teams.microsoft.com
+  skip-cert-verify: true
+#========= VLESS SSHOCEAN 28-07 =========
+#7day
+- name: 🇸🇬 🟢 𝙑𝙇_𝘾𝙊𝙉𝙏𝘼𝘽𝙊 🟢
+  server: hynesconstruction.com
+  port: 443
+  type: vless
+  uuid: 6bb5db72-8c57-466a-9b62-bc1535f0a25d
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: sg1-ctb.v2vless.xyz
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: sg1-ctb.v2vless.xyz
+  udp: true
+#========= TROJAN GFW PREM =========
+- name: 🇮🇩 🟢 𝙂𝙁_𝙉𝙐𝙎𝘼𝙄𝘿 🟢
+  type: trojan
+  server: 38.9.140.190
+  port: 443
+  password: nusaid
+  udp: true
+  sni: teams.microsoft.com
+  skip-cert-verify: true

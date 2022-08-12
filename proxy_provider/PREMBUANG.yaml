@@ -1,0 +1,199 @@
+proxies:
+#========= TROJAN GFW PREM =========
+- name: 🇸🇬 🟢 𝙂𝙁-𝘿𝙊𝘾𝙀𝘼𝙉 🟢
+  type: trojan
+  server: 159.89.201.118
+  port: 443
+  password: c8d35351-2bb8-4a0d-8c4e-568bcb3bf76f
+  udp: true
+  sni: teams.microsoft.com
+  skip-cert-verify: true
+#========= TROJAN GFW PREM =========
+- name: 🇸🇬 🟠 𝙂𝙁-𝙇𝙄𝙉𝙊𝘿𝙀 🟠
+  type: trojan
+  server: sgtr-prem.premiumvip.tech
+  port: 443
+  password: bd16c7c7-eed4-40af-b41d-f120fd6a9d6c
+  udp: true
+  sni: teams.microsoft.com
+  skip-cert-verify: true
+#========= TROJAN GO PREM =========
+- name:  🇮🇩 🟡 𝙂𝙊-𝙉𝙐𝙎𝘼𝙄𝘿 🟡
+  server: cdn.onlymega.com
+  server: hynesconstruction.com
+  port: 443
+  type: trojan
+  password: nusaid
+  network: ws
+  sni: nusaid.wdsmm.me
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojan-go
+    headers:
+        Host: nusaid.wdsmm.me
+#========= VLESS SSHOCEAN 24-07 =========
+#7day
+- name: 🇮🇩 🟡 𝙑𝙇_𝙇𝙄𝙉𝙆𝙂𝙊 🟡
+  server: hynesconstruction.com
+  port: 443
+  type: vless
+  uuid: 3150eb1e-283a-48b3-a11e-406e0c9cec1c
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: id6.v2vless.xyz
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: id6.v2vless.xyz
+  udp: true
+- name: 🇮🇩 🟡 𝙑𝙈_𝙇𝙄𝙉𝙆𝙂𝙊 🟡
+  type: vmess
+  server: hynesconstruction.com
+  port: 443
+  uuid: 6c2ee43f-61fe-402d-8c51-4fef766a8a6c
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: id6.v2rayserv.com
+  network: ws
+  ws-opts:
+    path: /sshocean
+    headers:
+      Host: id6.v2rayserv.com
+- name: 🇮🇩 🟡 𝙑𝙈_𝘼𝙋𝙄𝙆𝙉𝙀𝙏 🟡
+  type: vmess
+  server: cdn.onlymega.com
+  server: hynesconstruction.com
+  port: 443
+  uuid: af77458f-41ff-464a-9531-762155ae76a4
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: id-apik1.service-bestvpn.xyz
+  network: ws
+  ws-opts:
+    path: /sshocean
+    headers:
+      Host: id-apik1.service-bestvpn.xyz
+#========= VMESS GLOBALSSH 24-07 =========
+#30day
+- name: 🇸🇬 🟠 𝙑𝙈_𝘼𝙈𝘼𝙕𝙊𝙉 🟠
+  type: vmess
+  server: cdn.onlymega.com
+  server: hynesconstruction.com
+  port: 443
+  uuid: 22424f7c-44d4-4930-935d-fc1e5f348fa2
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: sg-aws7.service-bestvpn.xyz
+  network: ws
+  ws-opts:
+    path: /worldssh@u=syukiy&p=4e1a11c8fe5d4a&
+    headers:
+      Host: sg-aws7.service-bestvpn.xyz
+#========= TROJAN GO WORLDSSH 24-07 =========
+#30day
+- name: 🇸🇬 🟢 𝙂𝙊_𝘼𝙈𝘼𝙕𝙊𝙉 🟢
+  server: cdn.onlymega.com
+  server: hynesconstruction.com
+  port: 443
+  type: trojan
+  password: 330db9bc-f2c6-436f-a06e-6f84a593dd61
+  network: ws
+  sni: sg-aws7.service-bestvpn.xyz
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /WorldSSH
+    headers:
+        Host: sg-aws7.service-bestvpn.xyz
+#========= VMESS SSHOCEAN 02-08 =========
+- name: 🇮🇩 🟠 𝙑𝙈_𝙍𝘼𝙅𝘼𝙎𝘼 🟠
+  type: vmess
+  server: cdn.onlymega.com
+  server: hynesconstruction.com
+  port: 443
+  uuid: d2a11e7a-e4bd-4646-8746-be234093ea19
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: id4.v2rayserv.com
+  network: ws
+  ws-opts:
+    path: /sshocean
+    headers:
+      Host: id4.v2rayserv.com
+#========= TROJAN VLESS FREE =========
+- name: 🇮🇩 🟠 𝙑𝙇_𝙍𝘼𝙅𝘼𝙎𝘼 🟠
+  server: hynesconstruction.com
+  server: cdn.onlymega.com
+  port: 443
+  type: vless
+  uuid: 1ce863fb-ff33-447f-adf7-80edb48b2092
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: id4.v2vless.xyz
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: id4.v2vless.xyz
+  udp: true
+#========= TROGO SSHOCEAN 25-07 =========
+#7day
+- name: 🇮🇩 🟡 𝙂𝙊_𝘼𝙏𝙃𝘼𝙈𝙋 🟡
+  server: cdn.onlymega.com
+  port: 443
+  type: trojan
+  password: b196a358-7f0b-45bb-a79b-cf81126871d3
+  skip-cert-verify: true
+  sni: id-atha3.rockstartun.xyz
+  network: ws
+  ws-opts:
+    path: /websocket
+    headers:
+      Host: id-atha3.rockstartun.xyz
+  udp: true
+- name: 🇮🇩 🟡 𝙂𝙊_𝙇𝙄𝙉𝙆𝙂𝙊 🟡
+  server: cdn.onlymega.com
+  server: hynesconstruction.com
+  port: 443
+  type: trojan
+  password: d8a63455-d002-4d92-912c-7bf36b1eb37a
+  network: ws
+  sni: id-linkgo1.rockstartun.xyz
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /websocket
+    headers:
+        Host: id-linkgo1.rockstartun.xyz
+#========= VLESS FREE 30-07 =========
+- name: 🇮🇩 🟡 𝙑𝙇_𝙆𝙍𝙀𝘼𝙏𝙄𝙁 🟡
+  server: hynesconstruction.com
+  port: 443
+  type: vless
+  uuid: 94f8b074-4634-45d9-95fb-146d0bec636f
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: id5.v2vless.xyz
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: id5.v2vless.xyz
+  udp: true

@@ -1,0 +1,71 @@
+proxies:
+#========= TROJAN GFW PREM =========
+- name: 🇮🇩 🟠 𝙂𝙁_𝘽𝙄𝙕𝙉𝙀𝙏 🟠
+  type: trojan
+  server: 103.150.99.167
+  port: 443
+  password: goodboy
+  udp: true
+  sni: teams.microsoft.com
+  skip-cert-verify: true
+#========= TROJAN GO PREM =========
+- name: 🇮🇩 🟠 𝙂𝙊_𝙃𝙀𝙍𝙕𝘼𝙄𝘿 🟠
+  server: cdn.onlymega.com
+  server: hynesconstruction.com
+  port: 443
+  type: trojan
+  password: QKxORMaP
+  network: ws
+  sni: herzaid-vip.rockstartun.xyz
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojango
+    headers:
+        Host: herzaid-vip.rockstartun.xyz
+#========= TROJAN VLESS FREE 30-07 =========
+- name: 🇮🇩 🟠 𝙑𝙇_𝙍𝘼𝙅𝘼𝙎𝘼 🟠
+  server: hynesconstruction.com
+  server: cdn.onlymega.com
+  port: 443
+  type: vless
+  uuid: d2744bf4-2ed3-4205-9314-de5af91122dd
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: id4.v2vless.xyz
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: id4.v2vless.xyz
+  udp: true
+#========= TROJAN GO PREM =========
+- name: 🇸🇬 🟠 𝙂𝙊_𝘿𝙊𝘾𝙀𝘼𝙉 🟠
+  server: cdn.onlymega.com
+  server: hynesconstruction.com
+  port: 443
+  type: trojan
+  password: c8d35351-2bb8-4a0d-8c4e-568bcb3bf76f
+  network: ws
+  sni: sgdo1.premi-69.eu.org
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+    headers:
+        Host: sgdo1.premi-69.eu.org
+- name: 🇸🇬 🟠 𝙂𝙊_𝙇𝙄𝙉𝙊𝘿𝙀 🟠
+  server: cdn.onlymega.com
+  server: hynesconstruction.com
+  port: 443
+  type: trojan
+  password: bd16c7c7-eed4-40af-b41d-f120fd6a9d6c
+  network: ws
+  sni: sgtr-prem.premiumvip.tech
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+    headers:
+        Host: sgtr-prem.premiumvip.tech

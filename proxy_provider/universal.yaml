@@ -1,0 +1,19 @@
+proxies:
+- name: TJ1
+  type: trojan
+  server: w22-trojan.bonds.id
+  port: 443
+  password: 75c39320-812e-11ec-aae2-1239d0255272
+  udp: true
+  sni: bug.com
+  skip-cert-verify: true
+#  interface-name: eth1
+- name: TJ2
+  type: trojan
+  server: w22-trojan.bonds.id
+  port: 443
+  password: 75c39320-812e-11ec-aae2-1239d0255272
+  udp: true
+  sni: bug.com
+  skip-cert-verify: true
+#  interface-name: wwan0

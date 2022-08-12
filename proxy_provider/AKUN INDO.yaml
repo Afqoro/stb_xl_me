@@ -1,0 +1,77 @@
+proxies:
+#========= TROJAN GO PREM =========
+- name: 🇮🇩 🟡 𝙂𝙊_𝙃𝙀𝙍𝙕𝘼𝙄𝘿 🟡
+  server: cdn.onlymega.com
+  server: hynesconstruction.com
+  port: 443
+  type: trojan
+  password: QKxORMaP
+  network: ws
+  sni: herzaid-vip.rockstartun.xyz
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojango
+    headers:
+        Host: herzaid-vip.rockstartun.xyz
+#========= TROJAN GO PREM =========
+- name: 🇮🇩 🟡 𝙂𝙊_𝘽𝙄𝙕𝙉𝙀𝙏 🟡
+  server: cdn.onlymega.com
+  server: hynesconstruction.com
+  port: 443
+  type: trojan
+  password: goodboy
+  network: ws
+  sni: idbiz01.premiumvip.tech
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojan-go
+    headers:
+        Host: idbiz01.premiumvip.tech
+#========= TROJAN GRPC PREM =========
+- name: 🇸🇬 🟡 𝙂𝙍_𝙇𝙄𝙉𝙊𝘿𝙀 🟡
+  type: trojan
+  server: cdn.onlymega.com
+  server: hynesconstruction.com
+  port: 443
+  password: bd16c7c7-eed4-40af-b41d-f120fd6a9d6c
+  udp: true
+  sni: sgtr-prem.premiumvip.tech
+  skip-cert-verify: true
+  network: grpc
+  grpc-opts:
+    grpc-service-name: tdngrpc443
+#========= VMESS SSHOCEAN 02-08 =========
+- name: 🇮🇩 🟡 𝙑𝙈_𝙍𝘼𝙅𝘼𝙎𝘼 🟡
+  type: vmess
+  server: cdn.onlymega.com
+  server: hynesconstruction.com
+  port: 443
+  uuid: 279226c2-c2ed-4b4e-aac7-f976f4061d66
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: id4.v2rayserv.com
+  network: ws
+  ws-opts:
+    path: /sshocean
+    headers:
+      Host: id4.v2rayserv.com
+#========= TROGO SSHOCEAN 01-08=========
+#7day
+- name: 🇮🇩 🟡 𝙂𝙊_𝘼𝙏𝙃𝘼𝙈𝙋 🟡
+  server: cdn.onlymega.com
+  port: 443
+  type: trojan
+  password: 94b2c602-7331-4c67-8fd2-6276d845d64f
+  skip-cert-verify: true
+  sni: id-atha3.rockstartun.xyz
+  network: ws
+  ws-opts:
+    path: /websocket
+    headers:
+      Host: id-atha3.rockstartun.xyz
+  udp: true
