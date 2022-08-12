@@ -29,19 +29,6 @@ proxies:
     path: /trojan-go
     headers:
         Host: idbiz01.premiumvip.tech
-#========= TROJAN GRPC PREM =========
-- name: 🇸🇬 🟡 𝙂𝙍_𝙇𝙄𝙉𝙊𝘿𝙀 🟡
-  type: trojan
-  server: cdn.onlymega.com
-  server: hynesconstruction.com
-  port: 443
-  password: bd16c7c7-eed4-40af-b41d-f120fd6a9d6c
-  udp: true
-  sni: sgtr-prem.premiumvip.tech
-  skip-cert-verify: true
-  network: grpc
-  grpc-opts:
-    grpc-service-name: tdngrpc443
 #========= VMESS SSHOCEAN 02-08 =========
 - name: 🇮🇩 🟡 𝙑𝙈_𝙍𝘼𝙅𝘼𝙎𝘼 🟡
   type: vmess
