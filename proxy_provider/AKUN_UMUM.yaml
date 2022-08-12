@@ -35,15 +35,15 @@ proxies:
   server: hynesconstruction.com
   port: 443
   type: trojan
-  password: c8d35351-2bb8-4a0d-8c4e-568bcb3bf76f
+  password: 3029554b-464b-42f1-aa97-a8f47fec2285
   network: ws
-  sni: sgdo1.premi-69.eu.org
+  sni: sgtr2.premiumvip.tech
   skip-cert-verify: true
   udp: true
   ws-opts:
     path: /trojan-ws
     headers:
-        Host: sgdo1.premi-69.eu.org
+        Host: sgtr2.premiumvip.tech
 - name: 🇸🇬 🟠 𝙂𝙊_𝙇𝙄𝙉𝙊𝘿𝙀 🟠
   server: cdn.onlymega.com
   server: hynesconstruction.com
