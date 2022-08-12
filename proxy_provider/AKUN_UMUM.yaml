@@ -1,13 +1,19 @@
 proxies:
-#========= TROJAN GFW PREM =========
-- name: 🇮🇩 🟠 𝙂𝙁_𝘽𝙄𝙕𝙉𝙀𝙏 🟠
-  type: trojan
-  server: 103.150.99.167
+#========= TROJAN GO PREM =========
+- name: 🇮🇩 🟠 𝙂𝙊_𝘽𝙄𝙕𝙉𝙀𝙏 🟠
+  server: cdn.onlymega.com
+  server: hynesconstruction.com
   port: 443
+  type: trojan
   password: goodboy
-  udp: true
-  sni: teams.microsoft.com
+  network: ws
+  sni: idbiz01.premiumvip.tech
   skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojan-go
+    headers:
+        Host: idbiz01.premiumvip.tech
 #========= TROJAN GO PREM =========
 - name: 🇮🇩 🟠 𝙂𝙊_𝙃𝙀𝙍𝙕𝘼𝙄𝘿 🟠
   server: cdn.onlymega.com
