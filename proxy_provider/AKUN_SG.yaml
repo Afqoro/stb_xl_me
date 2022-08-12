@@ -5,9 +5,9 @@ proxies:
   server: cdn.onlymega.com
   server: hynesconstruction.com
   port: 443
-  password: c8d35351-2bb8-4a0d-8c4e-568bcb3bf76f
+  password: 3029554b-464b-42f1-aa97-a8f47fec2285
   udp: true
-  sni: sg-do1.gettunel.me
+  sni: sgtr2.premiumvip.tech
   skip-cert-verify: true
   network: grpc
   grpc-opts:
