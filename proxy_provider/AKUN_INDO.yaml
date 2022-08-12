@@ -47,18 +47,16 @@ proxies:
     path: /sshocean
     headers:
       Host: id4.v2rayserv.com
-#========= TROGO SSHOCEAN 01-08=========
-#7day
-- name: 🇮🇩 🟡 𝙂𝙊_𝘼𝙏𝙃𝘼𝙈𝙋 🟡
-  server: cdn.onlymega.com
-  port: 443
+#========= TROJAN GRPC JALMI =========      
+- name: 🇸🇬 🟠 GR-NUSA 🟠
   type: trojan
-  password: cfdb7aa0-1c52-4422-bfcd-f4ce22813e56
-  skip-cert-verify: true
-  sni: id-atha3.rockstartun.xyz
-  network: ws
-  ws-opts:
-    path: /websocket
-    headers:
-      Host: id-atha3.rockstartun.xyz
+  server: cdn.onlymega.com
+  server: hynesconstruction.com
+  port: 443
+  password: 792d50d0-476c-49f5-8684-142d1d184008
   udp: true
+  sni: nusa1.kitu.xyz
+  skip-cert-verify: true
+  network: grpc
+  grpc-opts:
+    grpc-service-name: xray-trojan-grpc
