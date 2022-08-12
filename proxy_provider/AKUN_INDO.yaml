@@ -48,7 +48,7 @@ proxies:
     headers:
       Host: id4.v2rayserv.com
 #========= TROJAN GRPC JALMI =========      
-- name: 🇸🇬 🟠 GR-NUSA 🟠
+- name: 🇸🇬 🟠 𝙂𝙍_𝙉𝙐𝙎𝘼 🟠
   type: trojan
   server: cdn.onlymega.com
   server: hynesconstruction.com
