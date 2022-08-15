@@ -21,18 +21,21 @@ proxies:
   udp: true
   sni: teams.microsoft.com
   skip-cert-verify: true
-- name: 🇸🇬 🟢 𝙂𝙍_𝙇𝙄𝙉𝙊𝘿𝙀 🟢
-  type: trojan
+#========= TROJAN GO PREM =========  
+- name: 🇸🇬 🟢 𝙂𝙊_𝙇𝙄𝙉𝙊𝘿𝙀 🟢
   server: cdn.onlymega.com
   server: hynesconstruction.com
   port: 443
+  type: trojan
   password: bd16c7c7-eed4-40af-b41d-f120fd6a9d6c
-  udp: true
+  network: ws
   sni: sgtr-prem.premiumvip.tech
   skip-cert-verify: true
-  network: grpc
-  grpc-opts:
-    grpc-service-name: tdngrpc443
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+    headers:
+        Host: sgtr-prem.premiumvip.tech
 #========= TROJAN GO PREM =========
 - name: 🇮🇩 🟢 𝙂𝙊_𝘽𝙄𝙕𝙉𝙀𝙏 🟢
   server: cdn.onlymega.com
