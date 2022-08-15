@@ -36,18 +36,21 @@ proxies:
     path: /trojan-ws
     headers:
         Host: sgtr-prem.premiumvip.tech
-#========= TROJAN GO PREM =========
-- name: 🇮🇩 🟢 𝙂𝙊_𝘽𝙄𝙕𝙉𝙀𝙏 🟢
+#========= VMESS SSHOCEAN 02-08 =========
+- name: 🇮🇩 🟢 𝙑𝙈_𝙍𝘼𝙅𝘼𝙎𝘼 🟢
+  type: vmess
   server: cdn.onlymega.com
   server: hynesconstruction.com
   port: 443
-  type: trojan
-  password: goodboy
-  network: ws
-  sni: idbiz01.premiumvip.tech
-  skip-cert-verify: true
+  uuid: 6d00cb41-5edf-42ae-9f0c-10b149df126f
+  alterId: 0
+  cipher: auto
   udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: id4.v2rayserv.com
+  network: ws
   ws-opts:
-    path: /trojan-go
+    path: /sshocean
     headers:
-        Host: idbiz01.premiumvip.tech    
+      Host: id4.v2rayserv.com    
