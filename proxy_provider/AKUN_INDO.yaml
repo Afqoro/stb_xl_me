@@ -27,7 +27,7 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: xray-trojan-grpc        
-- name: 🇮🇩 GR-GLOBAL2
+- name: 🇮🇩 🟡 GR-GLOBAL2 🟡
   type: trojan
   server: hynesconstruction.com
   port: 443
@@ -38,21 +38,14 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: xray-trojan-grpc
-#========= VMESS SSHOCEAN 02-08 =========
-- name: 🇮🇩 🟡 𝙑𝙈_𝙍𝘼𝙅𝘼𝙎𝘼 🟡
-  type: vmess
-  server: cdn.onlymega.com
+- name: 🇮🇩 GR-JALDO
+  type: trojan
   server: hynesconstruction.com
   port: 443
-  uuid: 6d00cb41-5edf-42ae-9f0c-10b149df126f
-  alterId: 0
-  cipher: auto
+  password: 9bfd93e9-d0fb-475e-9825-0cc9ed30b3de
   udp: true
-  tls: true
+  sni: do1.kitu.xyz
   skip-cert-verify: true
-  servername: id4.v2rayserv.com
-  network: ws
-  ws-opts:
-    path: /sshocean
-    headers:
-      Host: id4.v2rayserv.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: xray-trojan-grpc
