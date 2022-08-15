@@ -15,7 +15,7 @@ proxies:
     headers:
         Host: herzaid-vip.rockstartun.xyz
 #========= TROJAN GRPC JALMI =========      
-- name: 🇸🇬 🟠 𝙂𝙍_𝙉𝙐𝙎𝘼 🟠
+- name: 🇸🇬 🟡 𝙂𝙍_𝙉𝙐𝙎𝘼 🟡
   type: trojan
   server: cdn.onlymega.com
   server: hynesconstruction.com
