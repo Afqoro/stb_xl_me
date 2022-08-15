@@ -1,20 +1,5 @@
 proxies:
 #========= TROJAN GO PREM =========
-- name: 🇮🇩 🟠 𝙂𝙊_𝘽𝙄𝙕𝙉𝙀𝙏 🟠
-  server: cdn.onlymega.com
-  server: hynesconstruction.com
-  port: 443
-  type: trojan
-  password: goodboy
-  network: ws
-  sni: idbiz01.premiumvip.tech
-  skip-cert-verify: true
-  udp: true
-  ws-opts:
-    path: /trojan-go
-    headers:
-        Host: idbiz01.premiumvip.tech
-#========= TROJAN GO PREM =========
 - name: 🇮🇩 🟠 𝙂𝙊_𝙃𝙀𝙍𝙕𝘼𝙄𝘿 🟠
   server: cdn.onlymega.com
   server: hynesconstruction.com
@@ -29,6 +14,21 @@ proxies:
     path: /trojango
     headers:
         Host: herzaid-vip.rockstartun.xyz
+#========= TROJAN GO PREM =========
+- name: 🇮🇩 🟠 𝙂𝙊_𝘽𝙄𝙕𝙉𝙀𝙏 🟠
+  server: cdn.onlymega.com
+  server: hynesconstruction.com
+  port: 443
+  type: trojan
+  password: goodboy
+  network: ws
+  sni: idbiz01.premiumvip.tech
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojan-go
+    headers:
+        Host: idbiz01.premiumvip.tech
 #========= TROJAN GO PREM =========
 - name: 🇸🇬 🟠 𝙂𝙊_𝘿𝙊𝘾𝙀𝘼𝙉 🟠
   server: cdn.onlymega.com
