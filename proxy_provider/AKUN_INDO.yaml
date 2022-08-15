@@ -20,7 +20,7 @@ proxies:
   server: cdn.onlymega.com
   server: hynesconstruction.com
   port: 443
-  password: 792d50d0-476c-49f5-8684-142d1d184008
+  password: f6d0e866-fad7-45b8-b748-1e3248799c9d
   udp: true
   sni: nusa1.kitu.xyz
   skip-cert-verify: true
