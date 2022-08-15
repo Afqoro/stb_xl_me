@@ -14,6 +14,19 @@ proxies:
     path: /trojango
     headers:
         Host: herzaid-vip.rockstartun.xyz
+#========= TROJAN GRPC JALMI =========      
+- name: 🇸🇬 🟠 𝙂𝙍_𝙉𝙐𝙎𝘼 🟠
+  type: trojan
+  server: cdn.onlymega.com
+  server: hynesconstruction.com
+  port: 443
+  password: 792d50d0-476c-49f5-8684-142d1d184008
+  udp: true
+  sni: nusa1.kitu.xyz
+  skip-cert-verify: true
+  network: grpc
+  grpc-opts:
+    grpc-service-name: xray-trojan-grpc        
 - name: 🇮🇩 GR-GLOBAL2
   type: trojan
   server: hynesconstruction.com
@@ -43,16 +56,3 @@ proxies:
     path: /sshocean
     headers:
       Host: id4.v2rayserv.com
-#========= TROJAN GRPC JALMI =========      
-- name: 🇸🇬 🟠 𝙂𝙍_𝙉𝙐𝙎𝘼 🟠
-  type: trojan
-  server: cdn.onlymega.com
-  server: hynesconstruction.com
-  port: 443
-  password: 792d50d0-476c-49f5-8684-142d1d184008
-  udp: true
-  sni: nusa1.kitu.xyz
-  skip-cert-verify: true
-  network: grpc
-  grpc-opts:
-    grpc-service-name: xray-trojan-grpc
