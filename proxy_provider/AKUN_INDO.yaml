@@ -36,7 +36,7 @@ proxies:
   udp: true
   sni: teams.microsoft.com
   skip-cert-verify: true
-- name: 🇮🇩 🟡 𝙂𝙍_𝙅𝘼𝙇𝘿𝙊 🟡
+- name: 🇮🇩 🟡 𝙂𝙍_𝙅𝘼𝙇𝘿𝙊2 🟡
   type: trojan
   server: hynesconstruction.com
   port: 443
