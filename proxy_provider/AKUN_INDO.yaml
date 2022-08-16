@@ -40,7 +40,7 @@ proxies:
   type: trojan
   server: hynesconstruction.com
   port: 443
-  password: 9bfd93e9-d0fb-475e-9825-0cc9ed30b3de
+  password: b11e10d9-c0b7-4bab-94f7-f7df25e6edd9
   udp: true
   sni: do1.kitu.xyz
   skip-cert-verify: true
