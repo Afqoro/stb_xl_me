@@ -40,20 +40,20 @@ proxies:
     headers:
         Host: sgtr-prem.premiumvip.tech
 #========= VMESS SSHOCEAN 02-08 =========
-- name: 🇮🇩 🟢 𝙑𝙈_𝙇𝙄𝙉𝙆𝙂𝙊 🟢
+- name: 🇮🇩 🟢 𝙑𝙈_𝙍𝘼𝙅𝘼𝙎𝘼 🟢
   type: vmess
   server: cdn.onlymega.com
   server: hynesconstruction.com
   port: 443
-  uuid: aa4c8269-8895-4bdd-a23a-85051ae9d081
+  uuid: 6d00cb41-5edf-42ae-9f0c-10b149df126f
   alterId: 0
   cipher: auto
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: id1.jupiterv2ray.xyz
+  servername: id4.v2rayserv.com
   network: ws
   ws-opts:
-    path: /v2ray
+    path: /sshocean
     headers:
-      Host: id1.jupiterv2ray.xyz    
+      Host: id4.v2rayserv.com   
