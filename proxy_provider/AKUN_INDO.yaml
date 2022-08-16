@@ -26,19 +26,17 @@ proxies:
   skip-cert-verify: true
   network: grpc
   grpc-opts:
-    grpc-service-name: xray-trojan-grpc        
-- name: 🇮🇩 🟡 GR-GLOBAL2 🟡
-  type: trojan
-  server: hynesconstruction.com
-  port: 443
-  password: 6bca1dfa-763c-4adc-905f-fc85713c7588
-  udp: true
-  sni: dewabiz2.kitu.xyz
-  skip-cert-verify: true
-  network: grpc
-  grpc-opts:
     grpc-service-name: xray-trojan-grpc
-- name: 🇮🇩 GR-JALDO
+#========= TROJAN GFW PREM =========    
+- name: 🇸🇬 🟡 𝙂𝙁_𝙄𝙉𝙁𝙄𝙉𝙔 🟡
+  type: trojan
+  server: infy01.premiumvip.tech
+  port: 443
+  password: goodboy
+  udp: true
+  sni: teams.microsoft.com
+  skip-cert-verify: true
+- name: 🇮🇩 🟡 𝙂𝙍_𝙅𝘼𝙇𝘿𝙊 🟡
   type: trojan
   server: hynesconstruction.com
   port: 443
