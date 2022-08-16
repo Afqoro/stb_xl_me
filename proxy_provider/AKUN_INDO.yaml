@@ -14,7 +14,7 @@ proxies:
     path: /trojango
     headers:
         Host: herzaid-vip.rockstartun.xyz
-#========= TROJAN GRPC JALMI =========      
+#========= TROJAN GRPC JALMI 16-08 =========      
 - name: 🇸🇬 🟡 𝙂𝙍_𝙉𝙐𝙎𝘼 🟡
   type: trojan
   server: cdn.onlymega.com
@@ -31,7 +31,7 @@ proxies:
   type: trojan
   server: hynesconstruction.com
   port: 443
-  password: fa0bb760-ce48-4bf0-9088-43dd36d9b410
+  password: 6bca1dfa-763c-4adc-905f-fc85713c7588
   udp: true
   sni: dewabiz2.kitu.xyz
   skip-cert-verify: true
