@@ -123,7 +123,7 @@ proxies:
   server: cdn.onlymega.com
   server: hynesconstruction.com
   port: 443
-  uuid: d2a11e7a-e4bd-4646-8746-be234093ea19
+  uuid: 6d00cb41-5edf-42ae-9f0c-10b149df126f
   alterId: 0
   cipher: auto
   udp: true
