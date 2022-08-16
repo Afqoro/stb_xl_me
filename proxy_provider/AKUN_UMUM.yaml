@@ -28,23 +28,23 @@ proxies:
     headers:
         Host: herzaid-vip.rockstartun.xyz       
 #========= TROJAN GO PREM =========
-- name: 🇮🇩 🟠 𝙂𝙊_𝘽𝙄𝙕𝙉𝙀𝙏 🟠
+- name: 🇮🇩 🟠 GO-INFINY 🟠
   server: cdn.onlymega.com
   server: hynesconstruction.com
   port: 443
   type: trojan
   password: goodboy
   network: ws
-  sni: idbiz01.premiumvip.tech
+  sni: infy01.premiumvip.tech
   skip-cert-verify: true
   udp: true
   ws-opts:
     path: /trojan-go
     headers:
-        Host: idbiz01.premiumvip.tech
+        Host: infy01.premiumvip.tech
 - name: 🇸🇬 🟢 GF-BIZNET 🟢
   type: trojan
-  server: 103.150.99.167
+  server: infy01.premiumvip.tech
   port: 443
   password: goodboy
   udp: true
