@@ -42,7 +42,7 @@ proxies:
     path: /trojan-go
     headers:
         Host: infy01.premiumvip.tech
-- name: 🇸🇬 🟢 GF-BIZNET 🟢
+- name: 🇸🇬 🟢 GF-INFINY 🟢
   type: trojan
   server: infy01.premiumvip.tech
   port: 443
