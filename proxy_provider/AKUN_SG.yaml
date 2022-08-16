@@ -12,15 +12,18 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: tdngrpc443
-#========= TROJAN GFW PREM =========
-- name: 🇮🇩 🟢 𝙂𝙁_𝙃𝙀𝙍𝙕𝘼𝙄𝘿 🟢
+#========= TROJAN GRPC JALMI =========
+- name: 🇮🇩 🟢 𝙂𝙍_𝙂𝙇𝙊𝘽𝘼𝙇2 🟢
   type: trojan
-  server: herzaid-vip.rockstartun.xyz
+  server: hynesconstruction.com
   port: 443
-  password: QKxORMaP
+  password: 6bca1dfa-763c-4adc-905f-fc85713c7588
   udp: true
-  sni: teams.microsoft.com
+  sni: dewabiz2.kitu.xyz
   skip-cert-verify: true
+  network: grpc
+  grpc-opts:
+    grpc-service-name: xray-trojan-grpc
 #========= TROJAN GO PREM =========  
 - name: 🇸🇬 🟢 𝙂𝙊_𝙇𝙄𝙉𝙊𝘿𝙀 🟢
   server: cdn.onlymega.com
@@ -37,20 +40,20 @@ proxies:
     headers:
         Host: sgtr-prem.premiumvip.tech
 #========= VMESS SSHOCEAN 02-08 =========
-- name: 🇮🇩 🟢 𝙑𝙈_𝙍𝘼𝙅𝘼𝙎𝘼 🟢
+- name: 🇮🇩 🟢 𝙑𝙈_𝙇𝙄𝙉𝙆𝙂𝙊 🟢
   type: vmess
   server: cdn.onlymega.com
   server: hynesconstruction.com
   port: 443
-  uuid: 6d00cb41-5edf-42ae-9f0c-10b149df126f
+  uuid: aa4c8269-8895-4bdd-a23a-85051ae9d081
   alterId: 0
   cipher: auto
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: id4.v2rayserv.com
+  servername: id1.jupiterv2ray.xyz
   network: ws
   ws-opts:
-    path: /sshocean
+    path: /v2ray
     headers:
-      Host: id4.v2rayserv.com    
+      Host: id1.jupiterv2ray.xyz    
