@@ -36,14 +36,16 @@ proxies:
   udp: true
   sni: teams.microsoft.com
   skip-cert-verify: true
-- name: 🇮🇩 🟡 𝙂𝙍_𝙅𝘼𝙇𝘿𝙊2 🟡
+#========= TROJAN GRPC MAINSSH 16-08 =========      
+- name: 🇸🇬 🟡 𝙂𝙍-𝘽𝙀𝙍𝙆𝘼𝙃 🟡
   type: trojan
+  server: cdn.onlymega.com
   server: hynesconstruction.com
   port: 443
-  password: 291e60d2-e90a-45de-acbd-fe7457306468
+  password: mainssh-Hgyjfg
   udp: true
-  sni: do2.kitu.xyz
+  sni: idtgrpc.mainssh.xyz
   skip-cert-verify: true
   network: grpc
   grpc-opts:
-    grpc-service-name: xray-trojan-grpc
+    grpc-service-name: trojangrpc
