@@ -13,6 +13,17 @@ proxies:
   grpc-opts:
     grpc-service-name: tdngrpc443
 #========= TROJAN GRPC JALMI =========
+- name: 🇮🇩 🟢 𝙂𝙍_𝙅𝘼𝙇𝘿𝙊2 🟢
+  type: trojan
+  server: hynesconstruction.com
+  port: 443
+  password: 291e60d2-e90a-45de-acbd-fe7457306468
+  udp: true
+  sni: do2.kitu.xyz
+  skip-cert-verify: true
+  network: grpc
+  grpc-opts:
+    grpc-service-name: xray-trojan-grpc
 - name: 🇮🇩 🟢 𝙂𝙍_𝙂𝙇𝙊𝘽𝘼𝙇2 🟢
   type: trojan
   server: hynesconstruction.com
@@ -40,20 +51,3 @@ proxies:
     headers:
         Host: sgtr-prem.premiumvip.tech
 #========= VMESS SSHOCEAN 02-08 =========
-- name: 🇮🇩 🟢 𝙑𝙈_𝙍𝘼𝙅𝘼𝙎𝘼 🟢
-  type: vmess
-  server: cdn.onlymega.com
-  server: hynesconstruction.com
-  port: 443
-  uuid: 6d00cb41-5edf-42ae-9f0c-10b149df126f
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: id4.v2rayserv.com
-  network: ws
-  ws-opts:
-    path: /sshocean
-    headers:
-      Host: id4.v2rayserv.com   
