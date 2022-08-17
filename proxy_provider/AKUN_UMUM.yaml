@@ -14,6 +14,19 @@ proxies:
     path: /trojan-go
     headers:
         Host: infy01.premiumvip.tech
+#========= TROJAN GRPC PREM =========        
+- name: 🇮🇩 🟠 𝙂𝙍_𝙇𝙄𝙉𝙊𝘿𝙀 🟠
+  type: trojan
+  server: hynesconstruction.com
+  server: cdn.onlymega.com
+  port: 443
+  password: 5bdecbc5-c3af-44b6-98e3-cf5c173a9300
+  udp: true
+  sni: sgtr-prem.premiumvip.tech
+  skip-cert-verify: true
+  network: grpc
+  grpc-opts:
+    grpc-service-name: tdngrpc443        
 #========= TROJAN GO PREM =========
 - name: 🇮🇩 🟠 𝙂𝙊_𝙃𝙀𝙍𝙕𝘼𝙄𝘿 🟠
   server: cdn.onlymega.com
@@ -44,15 +57,3 @@ proxies:
     path: /trojan-ws
     headers:
         Host: sgtr2.premiumvip.tech
-#========= TROJAN GRPC JALMI =========        
-- name: 🇮🇩 🟠 𝙂𝙍_𝙇𝙄𝙉𝙆𝙂𝙊 🟠
-  type: trojan
-  server: hynesconstruction.com
-  port: 443
-  password: e706cfb5-f753-448c-b8d7-91d337346a18
-  udp: true
-  sni: linkgo1.kitu.xyz
-  skip-cert-verify: true
-  network: grpc
-  grpc-opts:
-    grpc-service-name: xray-trojan-grpc
