@@ -24,13 +24,13 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: xray-trojan-grpc
-- name: 🇮🇩 🟢 𝙂𝙍_𝙂𝙇𝙊𝘽𝘼𝙇2 🟢
+- name: 🇮🇩 🟢 𝙂𝙍_𝙇𝙄𝙉𝙆𝙂𝙊 🟢
   type: trojan
   server: hynesconstruction.com
   port: 443
-  password: 6bca1dfa-763c-4adc-905f-fc85713c7588
+  password: e706cfb5-f753-448c-b8d7-91d337346a18
   udp: true
-  sni: dewabiz2.kitu.xyz
+  sni: linkgo1.kitu.xyz
   skip-cert-verify: true
   network: grpc
   grpc-opts:
@@ -50,4 +50,3 @@ proxies:
     path: /trojan-ws
     headers:
         Host: sgtr-prem.premiumvip.tech
-#========= VMESS SSHOCEAN 02-08 =========
