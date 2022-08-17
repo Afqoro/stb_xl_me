@@ -57,3 +57,16 @@ proxies:
     path: /trojan-ws
     headers:
         Host: sgtr2.premiumvip.tech
+#========= TROJAN MAINSSH =========
+- name: 🇸🇬 🟠 𝙂𝙍_𝘾𝙀𝙉𝙏𝙀𝙍 🟠
+  type: trojan
+  server: cdn.onlymega.com
+  server: hynesconstruction.com
+  port: 443
+  password: mainssh-fgder
+  udp: true
+  sni: sgtgrpc.mainssh.xyz
+  skip-cert-verify: true
+  network: grpc
+  grpc-opts:
+    grpc-service-name: trojangrpc
