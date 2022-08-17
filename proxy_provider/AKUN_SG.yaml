@@ -12,6 +12,19 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: tdngrpc443
+#========= TROJAN MAINSSH =========
+- name: 🇸🇬 🟢 𝙂𝙍_𝘾𝙀𝙉𝙏𝙀𝙍 🟢
+  type: trojan
+  server: cdn.onlymega.com
+  server: hynesconstruction.com
+  port: 443
+  password: mainssh-fgder
+  udp: true
+  sni: sgtgrpc.mainssh.xyz
+  skip-cert-verify: true
+  network: grpc
+  grpc-opts:
+    grpc-service-name: trojangrpc    
 #========= TROJAN GRPC JALMI =========
 - name: 🇮🇩 🟢 𝙂𝙍_𝙅𝘼𝙇𝘿𝙊2 🟢
   type: trojan
@@ -20,17 +33,6 @@ proxies:
   password: 291e60d2-e90a-45de-acbd-fe7457306468
   udp: true
   sni: do2.kitu.xyz
-  skip-cert-verify: true
-  network: grpc
-  grpc-opts:
-    grpc-service-name: xray-trojan-grpc
-- name: 🇮🇩 🟢 𝙂𝙍_𝙇𝙄𝙉𝙆𝙂𝙊 🟢
-  type: trojan
-  server: hynesconstruction.com
-  port: 443
-  password: e706cfb5-f753-448c-b8d7-91d337346a18
-  udp: true
-  sni: linkgo1.kitu.xyz
   skip-cert-verify: true
   network: grpc
   grpc-opts:
