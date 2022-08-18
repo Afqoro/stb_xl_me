@@ -1,13 +1,13 @@
 proxies:
 #========= TROJAN GRPC PREM =========
-- name: 🇸🇬 🟢 𝙂𝙍_𝘿𝙊𝘾𝙀𝘼𝙉 🟢
+- name: 🇮🇩 🟢 𝙂𝙍_𝙇𝙄𝙉𝙊𝘿𝙀 🟢
   type: trojan
-  server: cdn.onlymega.com
   server: hynesconstruction.com
+  server: cdn.onlymega.com
   port: 443
-  password: 3029554b-464b-42f1-aa97-a8f47fec2285
+  password: 5bdecbc5-c3af-44b6-98e3-cf5c173a9300
   udp: true
-  sni: sgtr2.premiumvip.tech
+  sni: sgtr-prem.premiumvip.tech
   skip-cert-verify: true
   network: grpc
   grpc-opts:
