@@ -26,8 +26,7 @@ proxies:
   skip-cert-verify: true
   network: grpc
   grpc-opts:
-    grpc-service-name: tdngrpc443
-        
+    grpc-service-name: tdngrpc443    
 #========= TROJAN GO PREM =========
 - name: 🇮🇩 🟠 𝙂𝙊_𝙃𝙀𝙍𝙕𝘼𝙄𝘿 🟠
   server: cdn.onlymega.com
