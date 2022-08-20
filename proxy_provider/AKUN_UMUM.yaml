@@ -57,3 +57,27 @@ proxies:
     path: /trojan-ws
     headers:
         Host: sgtr2.premiumvip.tech
+- name: 🇸🇬 SGDO
+  server: cdn.onlymega.com
+  port: 443
+  type: trojan
+  password: d80f74fe-4898-4557-9c5e-5bdefa92b579
+  network: ws
+  sni: sgtr2.premiumvip.tech
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+    headers:
+        Host: sgtr2.premiumvip.tech
+- name: 🇸🇬 GRPC-SGDO
+  type: trojan
+  server: cdn.onlymega.com
+  port: 443
+  password: d80f74fe-4898-4557-9c5e-5bdefa92b579
+  udp: true
+  sni: sgtr2.premiumvip.tech
+  skip-cert-verify: true
+  network: grpc
+  grpc-opts:
+    grpc-service-name: tdngrpc443
