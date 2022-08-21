@@ -18,7 +18,7 @@ proxies:
   server: cdn.onlymega.com
   server: hynesconstruction.com
   port: 443
-  password: mainssh-fgder
+  password: mainssh-dgdrw
   udp: true
   sni: sgtgrpc.mainssh.xyz
   skip-cert-verify: true
@@ -30,7 +30,7 @@ proxies:
   type: trojan
   server: hynesconstruction.com
   port: 443
-  password: 291e60d2-e90a-45de-acbd-fe7457306468
+  password: 26f91559-82c0-4ce6-9d7b-53ade44a89a7
   udp: true
   sni: do2.kitu.xyz
   skip-cert-verify: true
