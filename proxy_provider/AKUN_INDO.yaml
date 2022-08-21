@@ -42,7 +42,7 @@ proxies:
   server: cdn.onlymega.com
   server: hynesconstruction.com
   port: 443
-  password: mainssh-Hgyjfg
+  password: mainssh-ghfrt
   udp: true
   sni: idtgrpc.mainssh.xyz
   skip-cert-verify: true
