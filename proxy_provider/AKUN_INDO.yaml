@@ -14,6 +14,32 @@ proxies:
     path: /trojango
     headers:
         Host: herzaid-vip.rockstartun.xyz
+- name: 🇮🇩 🟡 GO_LINKGO 🟡
+  server: cdn.onlymega.com
+  server: hynesconstruction.com
+  port: 443
+  type: trojan
+  password: b9a1cebc-765c-4331-9994-1f9e16719ea9
+  network: ws
+  sni: id01-go.wdssh.me
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojan
+    headers:
+        Host: id01-go.wdssh.me
+- name: 🇸🇬 🟡 GR_LINKGO 🟡
+  type: trojan
+  server: cdn.onlymega.com
+  server: hynesconstruction.com
+  port: 443
+  password: b9a1cebc-765c-4331-9994-1f9e16719ea9
+  udp: true
+  sni: id01-go.wdssh.me
+  skip-cert-verify: true
+  network: grpc
+  grpc-opts:
+    grpc-service-name: Trojan-GRPC        
 #========= TROJAN GRPC JALMI 16-08 =========      
 - name: 🇸🇬 🟡 𝙂𝙍_𝙉𝙐𝙎𝘼 🟡
   type: trojan
