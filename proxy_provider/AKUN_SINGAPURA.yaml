@@ -1,4 +1,19 @@
 proxies:
+#========= TROJAN GO PREM =========
+- name: 🇸🇬 🟠 𝙂𝙊_𝘿𝙊𝘾𝙀𝘼𝙉 🟠
+  server: cdn.onlymega.com
+  server: hynesconstruction.com
+  port: 443
+  type: trojan
+  password: 3029554b-464b-42f1-aa97-a8f47fec2285
+  network: ws
+  sni: sgtr2.premiumvip.tech
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+    headers:
+        Host: sgtr2.premiumvip.tech
 #========= TROJAN GRPC PREM =========
 - name: 🇮🇩 🟢 𝙂𝙍_𝙇𝙄𝙉𝙊𝘿𝙀 🟢
   type: trojan
@@ -12,31 +27,19 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: tdngrpc443
-#========= TROJAN MAINSSH =========
-- name: 🇸🇬 🟢 𝙂𝙍_𝘾𝙀𝙉𝙏𝙀𝙍 🟢
+#========= TROJAN GRPC PREM =========
+- name: 🇸🇬 🟠 𝙂𝙍_𝘿𝙊𝘾𝙀𝘼𝙉 🟠
   type: trojan
   server: cdn.onlymega.com
   server: hynesconstruction.com
   port: 443
-  password: mainssh-dgdrw
+  password: 3029554b-464b-42f1-aa97-a8f47fec2285
   udp: true
-  sni: sgtgrpc.mainssh.xyz
+  sni: sgtr2.premiumvip.tech
   skip-cert-verify: true
   network: grpc
   grpc-opts:
-    grpc-service-name: trojangrpc    
-#========= TROJAN GRPC JALMI =========
-- name: 🇮🇩 🟢 𝙂𝙍_𝙅𝘼𝙇𝘿𝙊2 🟢
-  type: trojan
-  server: hynesconstruction.com
-  port: 443
-  password: 26f91559-82c0-4ce6-9d7b-53ade44a89a7
-  udp: true
-  sni: do2.kitu.xyz
-  skip-cert-verify: true
-  network: grpc
-  grpc-opts:
-    grpc-service-name: xray-trojan-grpc
+    grpc-service-name: tdngrpc443
 #========= TROJAN GO PREM =========  
 - name: 🇸🇬 🟢 𝙂𝙊_𝙇𝙄𝙉𝙊𝘿𝙀 🟢
   server: cdn.onlymega.com
