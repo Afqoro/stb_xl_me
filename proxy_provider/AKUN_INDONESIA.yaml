@@ -1,0 +1,52 @@
+proxies:
+- name: 🇮🇩 𝙂𝙍_𝙇𝙄𝙉𝙆𝙂𝙊
+  type: trojan
+  server: cdn.onlymega.com
+  port: 443
+  password: 51a7e594-e6d2-48a5-aecc-85a6622e09e8
+  udp: true
+  sni: id01-go.premiumvip.tech
+  skip-cert-verify: true
+  network: grpc
+  grpc-opts:
+    grpc-service-name: tdngrpc443
+- name: 🇮🇩 𝙂𝙊_𝙇𝙄𝙉𝙆𝙂𝙊
+  server: cdn.onlymega.com
+  port: 443
+  type: trojan
+  password: 51a7e594-e6d2-48a5-aecc-85a6622e09e8
+  network: ws
+  sni: id01-go.premiumvip.tech
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+    headers:
+        Host: id01-go.premiumvip.tech
+#========= TROJAN GO PREM =========
+- name: 🇮🇩 🟠 𝙂𝙊-𝙄𝙉𝙁𝙄𝙉𝙔 🟠
+  server: 
+  server: hynesconstruction.com
+  port: 443
+  type: trojan
+  password: goodboy
+  network: ws
+  sni: infy01.premiumvip.tech
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojan-go
+    headers:
+        Host: infy01.premiumvip.tech
+- name: 🇸🇬 🟡 𝙂𝙍-𝘽𝙀𝙍𝙆𝘼𝙃 🟡
+  type: trojan
+  server: cdn.onlymega.com
+  server: hynesconstruction.com
+  port: 443
+  password: mainssh-fdgdddf
+  udp: true
+  sni: idtgrpc.mainssh.xyz
+  skip-cert-verify: true
+  network: grpc
+  grpc-opts:
+    grpc-service-name: trojangrpc
